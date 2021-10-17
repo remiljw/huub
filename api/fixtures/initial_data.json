@@ -1,0 +1,497 @@
+[
+    {
+        "model": "api.brand",
+        "pk": 1,
+        "fields": {
+            "name": "Adidas",
+            "created_at": "2021-10-16T17:54:46.927Z",
+            "updated_at": "2021-10-16T17:54:46.927Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 2,
+        "fields": {
+            "name": "Anker",
+            "created_at": "2021-10-16T17:54:52.516Z",
+            "updated_at": "2021-10-16T17:54:52.516Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 3,
+        "fields": {
+            "name": "Apple",
+            "created_at": "2021-10-16T17:54:55.376Z",
+            "updated_at": "2021-10-16T17:54:55.376Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 4,
+        "fields": {
+            "name": "Ashluxe",
+            "created_at": "2021-10-16T17:55:00Z",
+            "updated_at": "2021-10-16T17:55:00Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 5,
+        "fields": {
+            "name": "Gucci",
+            "created_at": "2021-10-16T17:55:03.591Z",
+            "updated_at": "2021-10-16T17:55:03.591Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 6,
+        "fields": {
+            "name": "HP",
+            "created_at": "2021-10-16T17:55:07.052Z",
+            "updated_at": "2021-10-16T17:55:07.052Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 7,
+        "fields": {
+            "name": "Nike",
+            "created_at": "2021-10-16T17:55:12.008Z",
+            "updated_at": "2021-10-16T17:55:12.008Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 8,
+        "fields": {
+            "name": "Zara",
+            "created_at": "2021-10-16T17:55:21.324Z",
+            "updated_at": "2021-10-16T17:55:21.324Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 9,
+        "fields": {
+            "name": "Versace",
+            "created_at": "2021-10-16T17:55:31.494Z",
+            "updated_at": "2021-10-16T17:55:31.494Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 10,
+        "fields": {
+            "name": "Samsung",
+            "created_at": "2021-10-16T17:55:52.305Z",
+            "updated_at": "2021-10-16T17:55:52.305Z"
+        }
+    },
+    {
+        "model": "api.brand",
+        "pk": 11,
+        "fields": {
+            "name": "Sony",
+            "created_at": "2021-10-16T17:56:00.572Z",
+            "updated_at": "2021-10-16T17:56:00.572Z"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 1,
+        "fields": {
+            "brand": 7,
+            "customer_name": "John Doe",
+            "reference": "1234",
+            "address": "8, Faith Crescenteg",
+            "order_date": "2021-10-16T17:58:19.924Z",
+            "price_total": 1995.0,
+            "updated_at": "2021-10-16T17:58:19.924Z"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 2,
+        "fields": {
+            "brand": 3,
+            "customer_name": "Teniola",
+            "reference": "3243ssg434",
+            "address": "8, Faith Crescenteg",
+            "order_date": "2021-10-16T18:47:45.622Z",
+            "price_total": 1398.0,
+            "updated_at": "2021-10-16T18:47:45.622Z"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 3,
+        "fields": {
+            "brand": 2,
+            "customer_name": "Jake",
+            "reference": "64BA478",
+            "address": "8, Faith Crescenteg",
+            "order_date": "2021-10-16T23:55:39.420Z",
+            "price_total": 329.0,
+            "updated_at": "2021-10-16T23:55:39.420Z"
+        }
+    },
+    {
+        "model": "api.order",
+        "pk": 4,
+        "fields": {
+            "brand": 10,
+            "customer_name": "Usain B",
+            "reference": "W76EBR9",
+            "address": "8, Faith Crescenteg",
+            "order_date": "2021-10-16T23:59:38.930Z",
+            "price_total": 776.0,
+            "updated_at": "2021-10-16T23:59:38.930Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 1,
+        "fields": {
+            "name": "Airpod Max",
+            "price": 799.99,
+            "created_at": "2021-10-16T17:56:40.276Z",
+            "updated_at": "2021-10-16T17:56:40.276Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 2,
+        "fields": {
+            "name": "Apple Watch Series 6",
+            "price": 399.0,
+            "created_at": "2021-10-16T17:56:50.374Z",
+            "updated_at": "2021-10-16T17:56:50.374Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 3,
+        "fields": {
+            "name": "iPhone 13 Pro",
+            "price": 999.0,
+            "created_at": "2021-10-16T17:57:01.553Z",
+            "updated_at": "2021-10-16T17:57:01.553Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 4,
+        "fields": {
+            "name": "Macbook M1",
+            "price": 1999.0,
+            "created_at": "2021-10-16T17:57:13.301Z",
+            "updated_at": "2021-10-16T17:57:13.301Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 5,
+        "fields": {
+            "name": "Jordan Air",
+            "price": 399.0,
+            "created_at": "2021-10-16T23:48:16.968Z",
+            "updated_at": "2021-10-16T23:48:16.968Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 6,
+        "fields": {
+            "name": "Jordan Pro",
+            "price": 599.0,
+            "created_at": "2021-10-16T23:48:32.528Z",
+            "updated_at": "2021-10-16T23:48:32.528Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 7,
+        "fields": {
+            "name": "Galaxy Tab A",
+            "price": 299.0,
+            "created_at": "2021-10-16T23:54:28.365Z",
+            "updated_at": "2021-10-16T23:54:28.365Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 8,
+        "fields": {
+            "name": "Samsung Galaxy Watch",
+            "price": 159.0,
+            "created_at": "2021-10-16T23:54:42.451Z",
+            "updated_at": "2021-10-16T23:54:42.451Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 9,
+        "fields": {
+            "name": "Soundcore Life Q35",
+            "price": 125.0,
+            "created_at": "2021-10-16T23:54:54.723Z",
+            "updated_at": "2021-10-16T23:54:54.723Z"
+        }
+    },
+    {
+        "model": "api.product",
+        "pk": 10,
+        "fields": {
+            "name": "Soundcore Life Pro",
+            "price": 79.0,
+            "created_at": "2021-10-16T23:55:03.580Z",
+            "updated_at": "2021-10-16T23:55:03.580Z"
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 1,
+        "fields": {
+            "product": 2,
+            "order": 2,
+            "quantity": 1,
+            "price": 399.0,
+            "created_at": "2021-10-16T17:57:46.131Z",
+            "updated_at": "2021-10-16T17:57:46.132Z"
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 2,
+        "fields": {
+            "product": 3,
+            "order": 2,
+            "quantity": 1,
+            "price": 999.0,
+            "created_at": "2021-10-16T18:00:23.342Z",
+            "updated_at": "2021-10-16T18:00:23.342Z"
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 3,
+        "fields": {
+            "product": 5,
+            "order": 1,
+            "quantity": 5,
+            "price": 1995.0,
+            "created_at": "2021-10-16T23:50:13.328Z",
+            "updated_at": "2021-10-16T23:50:13.328Z"
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 4,
+        "fields": {
+            "product": 9,
+            "order": 3,
+            "quantity": 2,
+            "price": 250.0,
+            "created_at": "2021-10-16T23:56:14.575Z",
+            "updated_at": "2021-10-16T23:56:14.575Z"
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 5,
+        "fields": {
+            "product": 10,
+            "order": 3,
+            "quantity": 1,
+            "price": 79.0,
+            "created_at": "2021-10-16T23:56:27.995Z",
+            "updated_at": "2021-10-16T23:56:27.995Z"
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 6,
+        "fields": {
+            "product": 8,
+            "order": 4,
+            "quantity": 3,
+            "price": 477.0,
+            "created_at": "2021-10-17T00:01:56.003Z",
+            "updated_at": "2021-10-17T00:01:56.003Z"
+        }
+    },
+    {
+        "model": "api.orderitem",
+        "pk": 7,
+        "fields": {
+            "product": 7,
+            "order": 4,
+            "quantity": 1,
+            "price": 299.0,
+            "created_at": "2021-10-17T00:02:17.574Z",
+            "updated_at": "2021-10-17T00:02:17.574Z"
+        }
+    },
+    {
+        "model": "api.delivery",
+        "pk": 1,
+        "fields": {
+            "order": 2,
+            "shipped": false,
+            "created_at": "2021-10-16T19:05:11.997Z",
+            "updated_at": "2021-10-16T19:06:23.876Z",
+            "products": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "api.delivery",
+        "pk": 2,
+        "fields": {
+            "order": 2,
+            "shipped": true,
+            "created_at": "2021-10-16T19:06:47.840Z",
+            "updated_at": "2021-10-16T19:07:43.080Z",
+            "products": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "api.delivery",
+        "pk": 4,
+        "fields": {
+            "order": 1,
+            "shipped": true,
+            "created_at": "2021-10-16T23:51:00.166Z",
+            "updated_at": "2021-10-16T23:51:00.166Z",
+            "products": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "api.delivery",
+        "pk": 5,
+        "fields": {
+            "order": 1,
+            "shipped": false,
+            "created_at": "2021-10-16T23:51:21.265Z",
+            "updated_at": "2021-10-16T23:51:21.265Z",
+            "products": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "api.delivery",
+        "pk": 6,
+        "fields": {
+            "order": 3,
+            "shipped": true,
+            "created_at": "2021-10-16T23:57:49.916Z",
+            "updated_at": "2021-10-16T23:57:49.916Z",
+            "products": [
+                5,
+                6
+            ]
+        }
+    },
+    {
+        "model": "api.delivery",
+        "pk": 7,
+        "fields": {
+            "order": 4,
+            "shipped": false,
+            "created_at": "2021-10-17T00:03:36.947Z",
+            "updated_at": "2021-10-17T00:03:36.947Z",
+            "products": [
+                8,
+                7
+            ]
+        }
+    },
+    {
+        "model": "api.delivereditem",
+        "pk": 1,
+        "fields": {
+            "product_name": 3,
+            "quantity": 1,
+            "created_at": "2021-10-16T19:04:59.128Z",
+            "updated_at": "2021-10-16T19:04:59.128Z"
+        }
+    },
+    {
+        "model": "api.delivereditem",
+        "pk": 2,
+        "fields": {
+            "product_name": 2,
+            "quantity": 1,
+            "created_at": "2021-10-16T19:06:42.678Z",
+            "updated_at": "2021-10-16T19:06:42.678Z"
+        }
+    },
+    {
+        "model": "api.delivereditem",
+        "pk": 3,
+        "fields": {
+            "product_name": 5,
+            "quantity": 2,
+            "created_at": "2021-10-16T23:50:54.878Z",
+            "updated_at": "2021-10-16T23:50:54.878Z"
+        }
+    },
+    {
+        "model": "api.delivereditem",
+        "pk": 4,
+        "fields": {
+            "product_name": 5,
+            "quantity": 3,
+            "created_at": "2021-10-16T23:51:17.690Z",
+            "updated_at": "2021-10-16T23:51:17.690Z"
+        }
+    },
+    {
+        "model": "api.delivereditem",
+        "pk": 5,
+        "fields": {
+            "product_name": 10,
+            "quantity": 1,
+            "created_at": "2021-10-16T23:57:37.162Z",
+            "updated_at": "2021-10-16T23:57:37.162Z"
+        }
+    },
+    {
+        "model": "api.delivereditem",
+        "pk": 6,
+        "fields": {
+            "product_name": 9,
+            "quantity": 2,
+            "created_at": "2021-10-16T23:57:46.119Z",
+            "updated_at": "2021-10-16T23:57:46.119Z"
+        }
+    },
+    {
+        "model": "api.delivereditem",
+        "pk": 7,
+        "fields": {
+            "product_name": 8,
+            "quantity": 3,
+            "created_at": "2021-10-17T00:03:16.341Z",
+            "updated_at": "2021-10-17T00:03:16.341Z"
+        }
+    },
+    {
+        "model": "api.delivereditem",
+        "pk": 8,
+        "fields": {
+            "product_name": 7,
+            "quantity": 1,
+            "created_at": "2021-10-17T00:03:33.919Z",
+            "updated_at": "2021-10-17T00:03:33.919Z"
+        }
+    }
+]
