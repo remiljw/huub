@@ -13,9 +13,9 @@ class OrdersAndDeliveriesAPIView(APIView):
         try:
             queryset = Order.objects.all()
             response = []
-            brand = self.request.query_params.get('brand').capitalize()
+            brand = self.request.query_params.get('brand')
             if brand is not None:
-                queryset = queryset.filter(brand__name=brand)
+                queryset = queryset.filter(brand__name=brand.capitalize())
             for order in queryset:   
                 data = {}   
                 order_serializer = OrderSerializer(order)
