@@ -29,8 +29,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      env:
-        SECRET_KEY: ${{ secrets.SECRET_KEY }}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
@@ -47,5 +45,7 @@ jobs:
       run: |
         python manage.py migrate
     - name: Run Tests
+      env:
+        SECRET_KEY: ${{ secrets.SECRET_KEY }}
       run: |
         python manage.py test
