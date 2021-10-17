@@ -13,7 +13,7 @@ class OrdersAndDeliveriesAPIView(APIView):
         try:
             queryset = Order.objects.all()
             response = []
-            brand = self.request.query_params.get('brand')
+            brand = self.request.query_params.get('brand').capitalize()
             if brand is not None:
                 queryset = queryset.filter(brand__name=brand)
             for order in queryset:   
